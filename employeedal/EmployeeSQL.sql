@@ -3,7 +3,7 @@ create database mydb
 use mydb
 
 create table employee(
-id int PRIMARY KEY AUTO_INCREMENT,
+id int PRIMARY KEY,
 fname varchar(20),
 sname varchar(30)
 )
